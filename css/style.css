@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+.header{
+    height: 50px;
+    background-color: #1F2937;
+    color: #f9faf8;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero{
+    height: 300px;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 32px;
+}
+
+
+.hero .container{
+    width: 500px;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+
+.hero .container .main-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero .container .text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-button{
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+.info{
+    height: 300px;
+    padding: 32px;
+    flex: 1 1 auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: center;
+}
+
+.info img, .info .text{
+    width: 150px;
+    border-radius: 12px;
+}
+
+.info-content{
+    height: 200px;
+    display: flex;
+    padding: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.info-content .item{
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 48px 100px;
+    flex: 1 1 auto;
+    height: 300px;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote .author{
+    text-align: end;
+    padding: 16px;
+}
+
+.action{
+    flex: 1 1 auto;
+    background-color: whitesmoke;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .content{
+    background-color: #3882f6;
+    color: white;
+    height: 100px;
+    width: 600px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action .content .title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.action .content .text{
+    font-size: 12px;
+}
+
+.action .content .sign-up-button{
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
